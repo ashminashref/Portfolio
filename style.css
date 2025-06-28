@@ -2,13 +2,14 @@ body{
     font-family:'Inter';
 }
 
-.my-head-1{
+.my-head-1  {
     background: linear-gradient(to right,white,rgb(172, 172, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 70px;
-    letter-spacing: -3px;
+  
 }
+
 span{
     color: rgb(138, 138, 138);
 }
@@ -106,4 +107,13 @@ p{
   }
 
   /*  */
+  @media (max-width:500px){
+  .my-head-1{
+    font-size: 40px;
+  }
+  .button-contact{
+    width:  120px;
+    height: 27px;
+    font-size: 3px;
   
+}}
