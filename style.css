@@ -1,0 +1,109 @@
+body{
+    font-family:'Inter';
+}
+
+.my-head-1{
+    background: linear-gradient(to right,white,rgb(172, 172, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70px;
+    letter-spacing: -3px;
+}
+span{
+    color: rgb(138, 138, 138);
+}
+p{
+    color: grey;
+}
+
+.marque-box{
+    background-color: rgba(23, 21, 21, 0.231);
+    border: 1px solid rgb(138, 138, 138);
+    backdrop-filter: blur(30px);
+}
+
+
+
+.button-contact{
+    width: 140px;
+    height: 45px;
+}
+.txt{
+    color: grey;
+    transition: ease-in-out 0.2s;
+}
+.txt:hover{
+  color: white;
+}
+.name{
+  
+      background: linear-gradient(to right,rgb(44, 44, 44),rgb(179, 179, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+  marquee {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+  }
+
+  spline-viewer {
+    width: 100% !important;
+    max-width: 100% !important;
+    display: block;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .my-img{
+    transition: ease-in-out 0.3s;
+  }
+  .my-img:hover{
+    cursor: pointer;
+    transform: rotate(-3deg);
+  }
+  .p-card{
+    transition: ease-in-out 0.3s;
+  }
+  .p-card:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+  }
+  /* acordion */
+  .faq-p, .faq-ul{
+    color: rgb(128, 128, 128);
+  }
+  .faq-head{
+    color: rgb(231, 231, 231);
+  }
+ .me-card{
+  background-color: rgb(255, 0, 0);
+ }
+
+.connect-p{
+  font-size: 14px;
+}
+ /* loco */
+ html, body {
+    overflow-x: hidden; /* prevent horizontal scroll only */
+    height: auto;       /* let page height grow with content */
+  }
+
+  [data-scroll-container] {
+    will-change: transform;
+  }
+
+  html.has-scroll-smooth {
+    scroll-behavior: auto !important;
+  }
+
+  html.has-scroll-dragging {
+    user-select: none;
+  }
+
+  /*  */
+  
