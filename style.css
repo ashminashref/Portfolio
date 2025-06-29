@@ -88,6 +88,25 @@ p{
 .connect-p{
   font-size: 14px;
 }
+    .marquee-track {
+      display: flex;
+      width: fit-content;
+      animation: scroll-left 25s linear infinite;
+    }
+
+    @keyframes scroll-left {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+.box-skill{
+  background-color: rgba(48, 48, 48, 0.126);
+  margin-bottom: 100px;
+  border: 1px solid rgba(48, 48, 48, 0.466);
+}    
  /* loco */
  html, body {
     overflow-x: hidden; /* prevent horizontal scroll only */
@@ -105,6 +124,8 @@ p{
   html.has-scroll-dragging {
     user-select: none;
   }
+
+
 
   /*  */
   @media (max-width:500px){

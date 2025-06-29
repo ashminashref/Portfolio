@@ -31,7 +31,7 @@
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
-          <a class="navbar-brand fw-bold" href="#about">ash.</a>
+          <a class="navbar-brand fw-bold " href="#about">ash.</a>
           <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
             aria-expanded="false" aria-label="Toggle navigation">
@@ -99,7 +99,7 @@
   
 </p>
 
-      <h1 class="text-md-center text-start mb-5 fw-medium"><span>My Latest</span> Projects</h1>
+      <h1 class="text-md-center text-start mb-5 fw-medium "><span>My Latest</span> Projects</h1>
       <div class="row g-4 justify-content-center">
         <!-- Project Cards -->
          
@@ -138,7 +138,7 @@
   <section id="about" data-scroll-section>
     <div class="container py-5">
       <div class="row align-items-center">
-        <div class="col-md-6 mb-4">
+        <div class="col-md-6 mb-2">
           <div class="card bg-transparent  border-0">
             <img src="/IMG_7957.PNG" alt="" class="card-img-top my-img img-fluid">
           </div>
@@ -177,17 +177,64 @@
   </section>
 
   <!-- Skills Marquee -->
-  <div class="container my-3 mb-5 pb-5 " data-scroll-section>
-     
-    <lottie-player src = /Scene.json loop autoplay  class="container-fluid"></lottie-player>
-    
   
+
+  <div class="container py-5" data-scroll-section>
+    <div class="position-relative overflow-hidden box-skill rounded-4 px-3 py-4 box-skill">
+      
+      <!-- Left Blur -->
+      <div class="position-absolute top-0 start-0 h-100" 
+           style="width: 60px; background: linear-gradient(to right, #000, transparent); z-index: 1;">
+      </div>
+
+      <!-- Right Blur -->
+      <div class="position-absolute top-0 end-0 h-100" 
+           style="width: 60px; background: linear-gradient(to left, #000, transparent); z-index: 1;">
+      </div>
+
+      <!-- Marquee -->
+      <div class="marquee-track">
+        <div class="d-inline-flex gap-4 flex-nowrap text-nowrap">
+          <span class="text-white">HTML</span>
+          <span class="text-white">CSS</span>
+          <span class="text-white">JavaScript</span>
+          <span class="text-white">Bootstrap</span>
+          <span class="text-white">TailwindCss</span>
+          <span class="text-white">ReactJs</span>
+          <span class="text-white">Python</span>
+          <span class="text-white">Django</span>
+          <span class="text-white">Flask</span>
+          <span class="text-white">Rest API's</span>
+          <span class="text-white">AWS</span>
+          <span class="text-white">HTML/</span>
+        </div>
+
+        <!-- Duplicate for seamless scrolling -->
+        <div class="d-inline-flex gap-4 flex-nowrap text-nowrap ">
+          <span class="text-white">CSS</span>
+          <span class="text-white">JavaScript</span>
+          <span class="text-white">Bootstrap</span>
+          <span class="text-white">TailwindCss</span>
+          <span class="text-white">ReactJs</span>
+          <span class="text-white">Python</span>
+          <span class="text-white">Django</span>
+          <span class="text-white">Flask</span>
+          <span class="text-white">Rest API's</span>
+          <span class="text-white">AWS</span>
+          <span class="text-white">MySQL</span>
+        </div>
+      </div>
+
+    </div>
   </div>
+
+  
+
 
   <!-- Why Me Section -->
   <div class="container py-5" data-scroll-section>
   <p class="text-md-center text-start">
-  <span class=" text-white px-3 py-1 rounded-pill" style="background-color: rgba(48, 48, 48, 0.466);">Why me?</span>
+  <span class=" text-white px-3 py-2 rounded-pill" style="background-color: rgba(48, 48, 48, 0.466);">Why me?</span>
 </p>
     <h2 class="text-md-center text-start fw-semibold mb-5 text-white fs-1">
       I'll help <span class="text-secondary">your project</span> shine
@@ -416,6 +463,7 @@ Meticulous attention to every element, ensuring a polished and cohesive final pr
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
+
 <!-- JS -->
  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
 <script src="script.js"></script>
